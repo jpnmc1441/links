@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
 
+</head>
+<body>
+
+<div class="sitetitlediv"><div class="sitetitle">Welcome</div></div>
+
+<img class="sticky" src="https://i.ibb.co/gJWHq4P/02.jpg">
+
+<div class="sticky01">
+<div class="sticky"><h1 class="header01"><h1>Please click on the link nelow to go to SeirCoin.com</h1></div>
+</div>
+
+<div class="btnseircoin" onClick="window.location.href='http://www.seircoin.com'> Go to Seircoin
+   </div>
+   
+   
+   <div class="footer01"></div>
+</body>
+</html>
