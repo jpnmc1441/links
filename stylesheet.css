@@ -1,0 +1,45 @@
+body{
+    font-family: 'Arima Madurai', cursive;
+    font-weight: bold;
+    background-color:black;
+    color:white;}
+
+.sticky{
+    height: auto;
+    line-height: 50px;
+    margin-top: 10px;
+    font-size: 30px;
+    padding-left: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;}
+
+.sticky01{
+    border:1px solid red;   
+    height: auto;
+    line-height: 50px;
+    margin-top: 10px;
+    font-size: 30px;
+    padding-left: 10px;
+    min-height:400px;
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);}
+
+img{width:100%;}
+
+.header01{color:white;
+    background-color:aquamarine;} 
+
+.sitetitlediv{
+    width:fit-content;
+    border-bottom:1px solid lime;
+    margin:auto;
+    padding-bottom: 2px;}
+
+.sitetitle{
+    font-family:'Orbitron', sans-serif;
+    font-size:100px;
+    margin:auto;
+    width:fit-content;
+    border-top:1px solid lime;
+    border-bottom:3px solid lime;}
