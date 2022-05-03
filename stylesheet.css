@@ -60,13 +60,14 @@ img{width:100%;}
 
 /* Add some content at the bottom of the video/page */
 .content {
-    position:fixed;
-    top:0;
-  margin:auto;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
+    position: fixed;
+    top: 20%;
+    margin: auto;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    backdrop-filter: blur(7px);
+    text-align: center;
 }
 
 /* Style the button used to pause/play the video */
