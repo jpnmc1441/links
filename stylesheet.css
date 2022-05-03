@@ -43,3 +43,7 @@ img{width:100%;}
     width:fit-content;
     border-top:1px solid lime;
     border-bottom:3px solid lime;}
+.btnseircoin{
+    border:1px solid white;
+    border-radius:10px;}
+.footer01{margin: 50px auto;}
