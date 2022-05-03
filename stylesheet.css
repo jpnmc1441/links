@@ -1,6 +1,5 @@
 body{
     font-family:'Orbitron', sans-serif;
-    font-weight: bold;
     background-color:black;
     color:white;}
 
@@ -60,14 +59,14 @@ img{width:100%;}
 
 /* Add some content at the bottom of the video/page */
 .content {
-    position: fixed;
-    top: 20%;
-    margin: auto;
+    position: relative;
+    background-color: rgba(25,25,25,0.3);
+    margin: 60px auto;
     color: #f1f1f1;
-    width: 100%;
     padding: 20px;
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(3px);
     text-align: center;
+    width: fit-content;
 }
 
 /* Style the button used to pause/play the video */
