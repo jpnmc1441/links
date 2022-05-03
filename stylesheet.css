@@ -67,6 +67,8 @@ img{width:100%;}
     backdrop-filter: blur(3px);
     text-align: center;
     width: fit-content;
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.8);
+
 }
 
 /* Style the button used to pause/play the video */
