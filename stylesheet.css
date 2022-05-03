@@ -64,10 +64,12 @@ img{width:100%;}
     margin: 60px auto;
     color: #f1f1f1;
     padding: 20px;
-    backdrop-filter: blur(3px);
     text-align: center;
     width: fit-content;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter:blur(3px);
     box-shadow: 20px 20px 20px rgba(0,0,0,0.8);
+    -webkit-box-shadow:20px 20px 20px rgba(0,0,0,0.8);
 
 }
 
