@@ -1,5 +1,5 @@
 body{
-    font-family: 'Arima Madurai', cursive;
+    font-family:'Orbitron', sans-serif;
     font-weight: bold;
     background-color:black;
     color:white;}
@@ -37,7 +37,7 @@ img{width:100%;}
     padding-bottom: 2px;}
 
 .sitetitle{
-    font-family:'Orbitron', sans-serif;
+    -family:'Orbitron', sans-serif;
     font-size:100px;
     margin:auto;
     width:fit-content;
