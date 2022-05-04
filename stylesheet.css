@@ -6,7 +6,8 @@ body{
 
 
 .sitetitle{
-    -family:'Orbitron', sans-serif;
+    font-size:50px;
+    font-weight:bolder;
     margin:auto;
     width:fit-content;
     border-top:1px solid lime;
@@ -31,7 +32,7 @@ body{
 .content {
     position: relative;
     background-color: rgba(25,25,25,0.3);
-    margin: 60px auto;
+    margin: 150px auto;
     color: #f1f1f1;
     padding: 5px;
     text-align: center;
