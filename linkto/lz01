@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="stylesheet.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+   <script src="object.js"></script>
 
 </head>
 <body>
 
-<div class="sitetitlediv"><div class="sitetitle">Welcome</div></div>
+   
+<!-- The video -->
+   <video autoplay loop muted playsinline id="myVideo" poster="images/poster.jpg">
+  <source src="spacevid.mp4" type="video/mp4">
+</video>
 
-<img class="sticky" src="giphy.gif">
+<!-- Optional: some overlay text to describe the video -->
 
-<div class="sticky01">
-<div class="sticky"><h1 class="header01"><h1>Please click on the link nelow to go to SeirCoin.com</h1></div>
-<div class="btnseircoin" onClick="window.location.href = 'http://www.seircoin.com'"><h1>Go to Seircoin</h1>
-   </div>
-   </div>
-
-                                  
-                                  
-<div class="footer01"></div>                                  
+   
+<div class="content">
+   <div class="sitetitle">Welcome</div>
+  <h1>Seircoin</h1>
+  <p>Ig you would like to go back to the website, please click the button below.</p>
+  <!-- Use a button to pause/play the video with JavaScript -->
+  <button id="myBtn" onclick="window.location.href='https://seircoin.com/'">Go Home</button>
+</div>      
+   
+   
+   
+   
 </body>
 </html>
